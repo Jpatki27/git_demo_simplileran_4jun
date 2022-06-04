@@ -7,7 +7,7 @@ public class B {
 	
 	public static void main(String[] args) {
 		//class object = new Class()
-		B b = newB();
+		B b = new B();
 		
 	}
 

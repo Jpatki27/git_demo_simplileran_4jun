@@ -30,6 +30,8 @@ public class Calculator {
 		catch(Exception e) {
 			System.out.println("Please enter a valid numeric input");
 		}
-		
+		finally {
+			System.out.println("Hello");
+		}
 	}	
 }

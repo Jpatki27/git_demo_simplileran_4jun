@@ -4,12 +4,12 @@ public class Car {
 	private String color;
 	private String engineType;
 	
-	public Car() {
+	public Car() { //No Argument Constructor
 		color = "White";
 		engineType = "Petrol";
 	}
 	
-	public Car(String colorOfCar, String typeOfEngine) {
+	public Car(String colorOfCar, String typeOfEngine) { //parameterized constructor
 		
 		color = colorOfCar;
 		engineType = typeOfEngine;
